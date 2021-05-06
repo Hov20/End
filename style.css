@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-image: url(https://pbs.twimg.com/profile_images/1226162239872393217/XOqShqfp_400x400.jpg);
+    background-image: url(http://www.vladtime.ru/uploads/posts/2017-10/1508935001_whdq-513509994.jpg);
 }
 nav {
     width: 100%;
@@ -29,8 +29,6 @@ html {
     list-style-type: none;
 }
 img {
-    width: 500px;
-    height: 500px;
     border-radius: 50%;
 }
 #about {
@@ -43,31 +41,43 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 850px;
+    height: 1200px;
 }
 #lav {
-    font-size: 20px;
+    font-size: xx-large;
     max-width: 300px;
     min-width: 150px;
+    text-transform: capitalize;
+    font-style: italic;
 }
 #YEJ {
     background-image: url(./image/CSS.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 850px;
+    height: 1200px;
 }
 #vat {
-    font-size: 20px;
+    font-size: xx-large;
     max-width: 300px;
     min-width: 150px;
+    text-transform: capitalize;
+    font-style: italic;
 }
 #ZET {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: xx-large;
+    font-style: italic;
+    font-size: xx-large;
 }
 #face {
     padding: -500px;
+}
+marquee {
+    font-size: xx-large;
+    background-color: darkblue;
+    color: rgb(0, 255, 149);
+    font-style: italic;
 }
