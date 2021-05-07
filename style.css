@@ -7,7 +7,7 @@ body {
 }
 nav {
     width: 100%;
-    background-color: rgb(0, 230, 161);
+    background-color: rgb(10, 230, 211);
     height: 75px;
     position: fixed;
 }
@@ -65,12 +65,9 @@ img {
     font-style: italic;
 }
 #ZET {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: xx-large;
-    font-style: italic;
-    font-size: xx-large;
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(0, 171, 184) ;
 }
 #face {
     padding: -500px;
@@ -80,4 +77,62 @@ marquee {
     background-color: darkblue;
     color: rgb(0, 255, 149);
     font-style: italic;
+}
+#if {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 400px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 2px;
+    border-bottom: solid white 2px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#footer_links {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer_socials {
+    font-size: 75px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+.fa-facebook-square {
+    color: blue;
+}
+.fa-youtube {
+    color: red;
+}
+.fa-google {
+    color: green;
+}
+#footer_socials div {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+    footer p {
+        color: red;
+    }
+    
 }
