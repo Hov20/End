@@ -30,6 +30,7 @@ html {
 }
 img {
     border-radius: 50%;
+    width: 300px;
 }
 #about {
     display: flex;
@@ -37,11 +38,10 @@ img {
     font-size: xx-large;
 }
 #DAY {
-    background-image: url(./image/HTML.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 1200px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 #lav {
     font-size: xx-large;
@@ -51,11 +51,10 @@ img {
     font-style: italic;
 }
 #YEJ {
-    background-image: url(./image/CSS.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 1200px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 #vat {
     font-size: xx-large;
@@ -127,7 +126,16 @@ footer p {
     font-size: 18px;
     color: white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 40px) {
+    body {
+        background-color: red;
+    }
+    footer p {
+        color: red;
+    }
+    
+}
+@media only screen and (min-width: 20px) {
     body {
         background-color: red;
     }
