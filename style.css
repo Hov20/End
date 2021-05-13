@@ -135,6 +135,15 @@ footer p {
     }
     
 }
+
+@media only screen and (max-width: 600px) {
+    #YEJ, #about, #DAY{
+        display: flex;
+        flex-direction: column !important;
+    }
+    
+}
+
 @media only screen and (min-width: 20px) {
     body {
         background-color: red;
